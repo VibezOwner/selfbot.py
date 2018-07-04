@@ -185,9 +185,9 @@ class Info():
         servers = len(self.bot.servers)
         version = '1.2.1'
         library = 'discord.py'
-        creator = 'verix#7220'
-        discord_ = '[Support Server](https://discord.gg/pmQSbAd)'
-        github = '[/verixx/selfbot](https://github.com/verixx/selfbot)'
+        creator = 'papaatje#0001'
+        discord = '[My server:] (https://discord.gg/dbn78Kt)'
+        My love: = 'That\'s a secret, boii!'
         time = ctx.message.timestamp
         emb = discord.Embed(colour=0x00FFFF)
         emb.set_author(name='selfbot.py', icon_url=self.bot.user.avatar_url)
@@ -195,8 +195,8 @@ class Info():
         emb.add_field(name='Library',value=library)
         emb.add_field(name='Creator',value=creator)
         emb.add_field(name='Servers',value=servers)
-        emb.add_field(name='Github',value=github)
-        emb.add_field(name='Discord',value=discord_)
+        emb.add_field(name='My love:',value=My love)
+        emb.add_field(name='Discord',value=discord)
         emb.add_field(name='Uptime',value=time_)
         emb.set_footer(text="ID: {}".format(self.bot.user.id))
         emb.set_thumbnail(url='https://cdn.discordapp.com/avatars/319395783847837696/349677f658e864c0a5247a658df61eb1.webp?width=80&height=80')
